@@ -24,6 +24,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         //Add back arrow to Sandwich Detail Activity
+        //Found info on https://www.youtube.com/watch?v=s3pheMAmaPI
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

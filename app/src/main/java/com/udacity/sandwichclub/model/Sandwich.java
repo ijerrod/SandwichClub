@@ -1,5 +1,7 @@
 package com.udacity.sandwichclub.model;
 
+import org.json.JSONArray;
+
 import java.util.List;
 
 public class Sandwich {
@@ -13,8 +15,14 @@ public class Sandwich {
 
     /**
      * No args constructor for use in serialization
+     * @param mainName
+     * @param alsoKnownAs
+     * @param placeOfOrigin
+     * @param description
+     * @param image
+     * @param ingredients
      */
-    public Sandwich() {
+    public Sandwich(String mainName, JSONArray alsoKnownAs, String placeOfOrigin, String description, String image, JSONArray ingredients) {
     }
 
     public Sandwich(String mainName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image, List<String> ingredients) {
